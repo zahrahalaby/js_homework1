@@ -68,21 +68,12 @@ message =
 //task7
 
 console.log(false || 'sdf'); //sdf
-
 console.log(false && ''); //false
-
 console.log(true || ''); //true
-
 console.log(true && ''); //''
-
 console.log(undefined || null); //null
-
 console.log(undefined || 0 || null); //null
-
 console.log(undefined && 0 && null); //undefined
-
 console.log(1 || 0); //1
-
 console.log(null || 1); // 1
-
 console.log(null || 0 || 1); // 1
